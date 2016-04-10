@@ -25,7 +25,7 @@ function displayPhotos(data) {    // Display the grid of photos
       });
 
 
-    photoHTML = '<div class="pkmnCaontainer">';
+    photoHTML = '<div class="pkmnContainer">';
     photoHTML += '<div class="singlePkmn">';
     photoHTML += '<div class="pkmnIcon"><a href="' + pkmnPageLnk + '" class="image">';
     photoHTML += '<img src="' + pkmnPhotoLnk + '.png' + '"></a></div>';
